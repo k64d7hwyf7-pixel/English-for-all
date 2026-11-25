@@ -1,0 +1,1153 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>English with Mongolians</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;700&family=Nunito:wght@400;600;700;800&display=swap">
+<style>
+:root{--bg:#F3F8FB;--surface:#FFFFFF;--soft:#DDEBF3;--ink:#16313E;--muted:#48626F;--accent:#2A6F96;--on-accent:#FFFFFF;--pop:#F4B740;--on-pop:#3B2A05;--line:#C9DCE6;--r:20px;--display:'Unbounded',system-ui,sans-serif;--body:'Nunito',system-ui,sans-serif}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#12232B;--surface:#1B3140;--soft:#20394A;--ink:#EAF3F7;--muted:#A8C0CC;--accent:#7CC4E8;--on-accent:#0D2330;--pop:#F4B740;--on-pop:#2F2204;--line:#2C4857;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#12232B;--surface:#1B3140;--soft:#20394A;--ink:#EAF3F7;--muted:#A8C0CC;--accent:#7CC4E8;--on-accent:#0D2330;--pop:#F4B740;--on-pop:#2F2204;--line:#2C4857;color-scheme:dark}
+:root[data-palette="sky"]{--bg:#F3F8FB;--surface:#FFFFFF;--soft:#DDEBF3;--ink:#16313E;--muted:#48626F;--accent:#2A6F96;--on-accent:#FFFFFF;--pop:#F4B740;--on-pop:#3B2A05;--line:#C9DCE6;color-scheme:light}
+:root[data-palette="sage"]{--bg:#F4F8F2;--surface:#FFFFFF;--soft:#E0ECD9;--ink:#1F3326;--muted:#4F6556;--accent:#3B7752;--on-accent:#FFFFFF;--pop:#F2B544;--on-pop:#3B2A05;--line:#CCDDC4;color-scheme:light}
+:root[data-palette="rose"]{--bg:#FBF5F6;--surface:#FFFFFF;--soft:#F4E3E7;--ink:#36232B;--muted:#6A515B;--accent:#A23F5E;--on-accent:#FFFFFF;--pop:#46BDB1;--on-pop:#0E2A27;--line:#EBCDD5;color-scheme:light}
+:root[data-palette="night"]{--bg:#12232B;--surface:#1B3140;--soft:#20394A;--ink:#EAF3F7;--muted:#A8C0CC;--accent:#7CC4E8;--on-accent:#0D2330;--pop:#F4B740;--on-pop:#2F2204;--line:#2C4857;color-scheme:dark}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.55;overflow-x:hidden}
+a{color:inherit}
+h1,h2,h3,p{margin:0}
+.wrap{max-width:1120px;margin:0 auto;padding-left:max(24px,env(safe-area-inset-left,0px));padding-right:max(24px,env(safe-area-inset-right,0px))}
+.display{font-family:var(--display);font-weight:700;letter-spacing:-0.01em;text-wrap:balance}
+h2.display{font-size:clamp(26px,3.4vw,34px);line-height:1.15}
+.muted{color:var(--muted)}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid currentColor;outline-offset:3px}
+
+/* header */
+.top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;padding-top:24px;padding-bottom:8px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;font-family:var(--display);font-weight:700;font-size:16px;min-width:0}
+.nav{display:flex;flex-wrap:wrap;align-items:center;gap:8px 24px;font-weight:800;font-size:16px}
+.nav a{text-decoration:none}
+.nav a:not(.btn):hover{text-decoration:underline}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 28px;border-radius:999px;font-weight:800;text-decoration:none;border:2px solid transparent;font-family:inherit;font-size:17px;cursor:pointer;transition:transform .15s ease}
+.btn:hover{transform:translateY(-2px)}
+.btn-fill{background:var(--accent);color:var(--on-accent);box-shadow:0 4px 0 rgba(0,0,0,.18)}
+.btn-line{border-color:var(--accent);color:var(--ink);background:transparent}
+.nav .btn{min-height:40px;padding:0 20px;background:var(--accent);color:var(--on-accent)}
+
+/* hero */
+.hero{display:flex;flex-wrap:wrap;align-items:center;gap:40px;padding-top:32px;padding-bottom:72px}
+.hero-text{flex:1 1 440px;min-width:0;display:flex;flex-direction:column;align-items:flex-start;gap:24px}
+.pill{display:inline-flex;flex-wrap:wrap;align-items:center;gap:8px;padding:8px 16px;border-radius:999px;background:var(--soft);font-weight:800;font-size:15px}
+.hero h1{font-size:clamp(34px,5vw,56px);line-height:1.1}
+.mark{background:linear-gradient(transparent 62%,var(--pop) 62%)}
+.lead{font-size:20px;color:var(--muted);max-width:52ch}
+.row{display:flex;flex-wrap:wrap;gap:12px}
+.scene{flex:1 1 340px;min-width:0;max-width:460px;width:100%;margin:0 auto;position:relative;aspect-ratio:440/400}
+.scene>svg.bg{position:absolute;inset:0;width:100%;height:100%}
+.mori{position:absolute;left:26%;bottom:3%;width:62%}
+.bubble{position:relative;background:var(--surface);border:2px solid var(--ink);border-radius:var(--r);padding:10px 18px}
+.bubble b{display:block;font-family:var(--display);font-size:18px;line-height:1.3}
+.bubble span{display:block;font-weight:800;font-size:15px;color:var(--muted)}
+.bubble i{position:absolute;width:16px;height:16px;background:var(--surface);border-right:2px solid var(--ink);border-bottom:2px solid var(--ink);transform:rotate(45deg);bottom:-10px}
+.scene .bubble{position:absolute;top:4%;left:8%;max-width:62%}
+.scene .bubble i{right:32px}
+.bob{animation:bob 3.6s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+.no-mascots .mascot{display:none!important}
+
+/* fills for svg */
+.f-accent{fill:var(--accent)}.f-pop{fill:var(--pop)}.f-soft{fill:var(--soft)}.f-surface{fill:var(--surface)}.f-ink{fill:var(--ink)}.f-onaccent{fill:var(--on-accent)}
+
+/* sections */
+section{padding:72px 0}
+.band{background:var(--soft)}
+.stack{display:flex;flex-direction:column;gap:32px}
+.cards{display:flex;flex-wrap:wrap;gap:20px}
+.card{flex:1 1 280px;min-width:0;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:28px;display:flex;flex-direction:column;gap:12px}
+.card h3{font-size:21px;font-weight:800}
+.ico{width:52px;height:52px;border-radius:50%;background:var(--soft);display:flex;align-items:center;justify-content:center}
+.ico svg{width:26px;height:26px;fill:none;stroke:var(--accent);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+
+/* phrases */
+.ph{display:flex;flex-wrap:wrap;align-items:flex-end;gap:32px}
+.ph-main{flex:1 1 480px;min-width:0;display:flex;flex-direction:column;gap:20px}
+.tabs{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+.tab{min-height:44px;padding:0 20px;border-radius:999px;font-family:inherit;font-size:16px;font-weight:800;border:2px solid var(--line);background:transparent;color:var(--ink);cursor:pointer}
+.tab[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.tab.cover{border:2px dashed var(--muted)}
+.tab.cover[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.list{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.item{display:flex;flex-wrap:wrap;align-items:center;gap:6px 24px;padding:16px 24px;border-bottom:1px solid var(--line)}
+.item:last-child{border-bottom:0}
+.item .en{flex:1 1 220px;min-width:0;font-size:18px;font-weight:800}
+.item .mn{flex:1 1 220px;min-width:0;font-weight:700;color:var(--accent)}
+.item .mn.hid{display:block;height:14px;width:70%;border-radius:7px;background:var(--line);color:transparent;overflow:hidden;user-select:none}
+.ph-side{flex:0 1 320px;min-width:0;margin:0 auto;display:flex;flex-direction:column;gap:20px}
+.ph-side .bubble{align-self:flex-end;margin-right:24px}
+.ph-side .bubble i{right:40px}
+
+/* steps + sounds */
+.step{flex:1 1 280px;min-width:0;display:flex;flex-direction:column;gap:12px}
+.step .n{width:48px;height:48px;border-radius:50%;background:var(--accent);color:var(--on-accent);display:flex;align-items:center;justify-content:center;font-family:var(--display);font-weight:700;font-size:20px}
+.step h3{font-size:21px;font-weight:800}
+.snd{flex:1 1 240px;min-width:0;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:24px;display:flex;flex-direction:column;gap:8px}
+.snd .big{font-family:var(--display);font-weight:700;font-size:38px;line-height:1.1;color:var(--accent)}
+.snd h3{font-size:19px;font-weight:800}
+.snd.hot{background:var(--pop);color:var(--on-pop);border-color:transparent}
+.snd.hot .big{color:var(--on-pop)}
+
+/* join */
+.join{background:var(--accent);color:var(--on-accent);border-radius:var(--r);padding:40px;display:flex;flex-wrap:wrap;align-items:center;gap:32px}
+.join-side{flex:0 1 220px;min-width:0;margin:0 auto;display:flex;flex-direction:column;align-items:center;gap:16px}
+.join-side .bubble{color:var(--ink)}
+.join-side .bubble i{left:50%;margin-left:-8px}
+.join-main{flex:1 1 360px;min-width:0;display:flex;flex-direction:column;align-items:flex-start;gap:16px}
+.email{display:inline-block;padding:12px 24px;border-radius:999px;background:var(--pop);color:var(--on-pop);font-weight:800;font-size:19px;text-decoration:none;word-break:break-all}
+footer{border-top:1px solid var(--line)}
+.foot{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 24px;padding-top:28px;padding-bottom:28px;font-size:15px}
+
+[hidden]{display:none!important}
+
+/* video lessons */
+.vcard{flex:1 1 280px;min-width:0;max-width:100%;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;padding:0;text-align:left;font:inherit;cursor:pointer;transition:transform .15s ease}
+.vcard:hover{transform:translateY(-3px)}
+.vcard[aria-current="true"]{outline:3px solid var(--accent);outline-offset:3px}
+.vthumb{display:flex;align-items:center;justify-content:center;aspect-ratio:16/9;background:var(--accent);color:var(--on-accent);position:relative}
+.vcard:nth-child(3n+2) .vthumb{background:var(--pop);color:var(--on-pop)}
+.vcard:nth-child(3n+3) .vthumb{background:var(--ink);color:var(--bg)}
+.vthumb .soon{position:absolute;left:12px;bottom:10px;font-size:13px;font-weight:800;opacity:.85}
+.vbody{display:flex;flex-direction:column;align-items:flex-start;gap:8px;padding:16px 20px 20px}
+.vlevel{padding:2px 12px;border-radius:999px;background:var(--soft);font-size:13px;font-weight:800;color:var(--muted)}
+.vtitle{font-size:19px;font-weight:800;line-height:1.3}
+.player{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.player video,.player iframe{display:block;width:100%;aspect-ratio:16/9;background:#000;border:0}
+.pmsg{padding:24px 28px 28px;display:flex;flex-direction:column;align-items:flex-start;gap:12px}
+.pmsg h3{font-size:22px;font-weight:800}
+.vrow{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:14px;font-weight:700;padding:4px 0}
+.vrow span{min-width:0;overflow-wrap:anywhere}
+.vrow button{min-height:44px;padding:0 12px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--ink);font-family:inherit;font-weight:800;font-size:13px;cursor:pointer;flex:none}
+.cz-panel select{font-family:inherit;font-size:16px;padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:var(--bg);color:var(--ink);min-height:44px;width:100%}
+.cz-panel input[type=file]{font-family:inherit;font-size:14px;color:var(--ink);width:100%}
+.cz-panel .hint{font-size:13px;font-weight:600;color:var(--muted)}
+.cz-panel .add{align-self:flex-start;min-height:44px;padding:0 18px;border-radius:999px;border:2px solid var(--accent);background:var(--accent);color:var(--on-accent);font-family:inherit;font-weight:800;cursor:pointer}
+.cz-panel hr{border:0;border-top:1px solid var(--line);margin:0;width:100%}
+
+/* sign-in gate and roles */
+body:not(.ready)>*:not(#gate):not(script):not(style):not(link):not(meta):not(title){display:none!important}
+.gate{position:fixed;inset:0;z-index:60;background:var(--bg);color:var(--ink);overflow:auto;display:flex;align-items:center;justify-content:center;padding:max(24px,env(safe-area-inset-top,0px)) max(24px,env(safe-area-inset-right,0px)) max(24px,env(safe-area-inset-bottom,0px)) max(24px,env(safe-area-inset-left,0px))}
+.gate-box{width:100%;max-width:760px;display:flex;flex-direction:column;align-items:flex-start;gap:20px}
+.gate-box h1{font-size:clamp(28px,5vw,44px);line-height:1.1}
+.roles{display:flex;flex-wrap:wrap;gap:16px;width:100%}
+.rolebtn{flex:1 1 200px;min-width:0;display:flex;flex-direction:column;align-items:flex-start;gap:6px;padding:20px;border-radius:var(--r);border:2px solid var(--line);background:var(--surface);color:var(--ink);font-family:inherit;font-size:16px;text-align:left;cursor:pointer;transition:transform .15s ease}
+.rolebtn:hover{transform:translateY(-3px);border-color:var(--accent)}
+.rolebtn b{font-family:var(--display);font-size:18px}
+.rolebtn span{color:var(--muted);font-weight:600}
+body[data-role="student"] [data-for]:not([data-for~="student"]),
+body[data-role="parent"] [data-for]:not([data-for~="parent"]),
+body[data-role="teacher"] [data-for]:not([data-for~="teacher"]){display:none!important}
+.rolechip{min-height:40px;padding:0 16px;font-size:15px;cursor:pointer;background:transparent}
+.tips{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:8px;color:var(--muted)}
+.todo{display:flex;flex-direction:column;gap:4px}
+.todo label{display:flex;align-items:flex-start;gap:10px;min-height:44px;padding:6px 0;font-weight:700;cursor:pointer}
+.todo input{width:22px;height:22px;margin-top:2px;flex:none;accent-color:var(--accent)}
+
+/* progress, grades and classroom */
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:28px;display:flex;flex-direction:column;align-items:flex-start;gap:14px;min-width:0}
+.panel>*{max-width:100%}
+.panel h3{font-size:20px;font-weight:800}
+.tgrid{display:flex;flex-wrap:wrap;gap:20px;align-items:flex-start}
+.tgrid>.panel{flex:1 1 340px}
+.field{display:flex;flex-direction:column;gap:6px;font-weight:800;font-size:15px;width:100%;max-width:420px}
+.field input,.field textarea{font-family:inherit;font-size:16px;font-weight:600;padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:var(--bg);color:var(--ink);min-height:44px;width:100%}
+.rows{display:flex;flex-direction:column;width:100%}
+.rrow{display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px;padding:10px 0;border-bottom:1px solid var(--line)}
+.rrow:last-child{border-bottom:0}
+.rt{flex:1 1 160px;min-width:0;font-weight:800;overflow-wrap:anywhere}
+.rd{font-size:14px}
+.gc{flex:1 0 100%;margin:0;color:var(--muted);font-size:15px;overflow-wrap:anywhere}
+.chip{padding:2px 12px;border-radius:999px;background:var(--soft);font-size:13px;font-weight:800;color:var(--muted)}
+.chip.done{background:var(--accent);color:var(--on-accent)}
+.chip.score{background:var(--pop);color:var(--on-pop)}
+.bar{width:100%;height:14px;border-radius:7px;background:var(--soft);overflow:hidden}
+.bar span{display:block;height:100%;background:var(--accent);border-radius:7px}
+.phead{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 16px;width:100%}
+.sbtn{min-height:44px;padding:0 14px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--ink);font-family:inherit;font-weight:800;font-size:14px;cursor:pointer}
+code.code{font-family:ui-monospace,Menlo,Consolas,monospace;font-weight:700;padding:2px 8px;border-radius:8px;background:var(--soft);user-select:all;overflow-wrap:anywhere}
+.gform{display:flex;flex-direction:column;align-items:flex-start;gap:12px;width:100%;margin-top:8px;padding-top:16px;border-top:1px solid var(--line)}
+
+/* customizer */
+.cz-toggle{position:fixed;z-index:20;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));min-height:48px;padding:0 22px;border-radius:999px;border:2px solid var(--ink);background:var(--pop);color:var(--on-pop);font-family:inherit;font-size:16px;font-weight:800;cursor:pointer;box-shadow:0 4px 0 rgba(0,0,0,.2)}
+.cz-panel{position:fixed;z-index:20;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(76px + env(safe-area-inset-bottom,0px));width:min(360px,calc(100vw - 32px));max-height:calc(100vh - 120px);overflow:auto;background:var(--surface);color:var(--ink);border:2px solid var(--ink);border-radius:var(--r);padding:20px;display:flex;flex-direction:column;gap:14px}
+.cz-panel h2{font-family:var(--display);font-size:16px}
+.cz-panel label,.cz-panel .lbl{display:flex;flex-direction:column;gap:4px;font-weight:800;font-size:14px}
+.cz-panel input[type=text]{font-family:inherit;font-size:16px;padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:var(--bg);color:var(--ink);min-height:44px;width:100%}
+.cz-panel input[type=range]{width:100%;accent-color:var(--accent)}
+.sw{display:flex;flex-wrap:wrap;gap:8px}
+.sw button{min-height:44px;padding:0 14px;border-radius:999px;border:2px solid var(--line);background:var(--bg);color:var(--ink);font-family:inherit;font-weight:800;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;gap:8px}
+.sw button[aria-pressed="true"]{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+.sw .dot{width:16px;height:16px;border-radius:50%;border:1px solid var(--ink)}
+.chk{flex-direction:row!important;align-items:center;gap:10px!important;min-height:44px}
+.chk input{width:20px;height:20px;accent-color:var(--accent)}
+.cz-panel .reset{align-self:flex-start;min-height:44px;padding:0 16px;border-radius:999px;border:2px solid var(--line);background:transparent;color:var(--ink);font-family:inherit;font-weight:800;cursor:pointer}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}.bob{animation:none}.btn{transition:none}}
+</style>
+</head>
+<body>
+<div id="top"></div>
+
+<div class="gate" id="gate" role="dialog" aria-modal="true" aria-labelledby="gateTitle">
+  <div class="gate-box">
+    <svg viewBox="0 0 40 40" width="56" height="56" aria-hidden="true">
+      <circle cx="20" cy="20" r="20" class="f-accent"/>
+      <circle cx="28" cy="12" r="5" class="f-pop"/>
+      <path d="M7 26 L20 15 L33 26 Z" class="f-onaccent"/>
+      <rect x="9" y="26" width="22" height="8" rx="2" class="f-onaccent"/>
+      <rect x="17" y="28" width="6" height="6" rx="1.5" class="f-accent"/>
+    </svg>
+    <h1 class="display" id="gateTitle">English with Mongolians</h1>
+    <p class="muted" id="gateMsg" role="status" style="font-size:18px;max-width:52ch">Loading…</p>
+    <div class="roles" id="gateRoles" hidden>
+      <button type="button" class="rolebtn" data-role="student"><b>Student</b><span>Watch video lessons, practise phrases and drill tricky sounds.</span></button>
+      <button type="button" class="rolebtn" data-role="parent"><b>Parent</b><span>See how lessons work and how to help your child at home.</span></button>
+      <button type="button" class="rolebtn" data-role="teacher"><b>Teacher</b><span>Class checklist, warm-up ideas, phrases and sounds for the lesson.</span></button>
+    </div>
+  </div>
+</div>
+
+<header class="wrap top">
+  <a class="brand" href="#top">
+    <svg viewBox="0 0 40 40" width="40" height="40" aria-hidden="true">
+      <circle cx="20" cy="20" r="20" class="f-accent"/>
+      <circle cx="28" cy="12" r="5" class="f-pop"/>
+      <path d="M7 26 L20 15 L33 26 Z" class="f-onaccent"/>
+      <rect x="9" y="26" width="22" height="8" rx="2" class="f-onaccent"/>
+      <rect x="17" y="28" width="6" height="6" rx="1.5" class="f-accent"/>
+    </svg>
+    <span data-bind="name">English with Mongolians</span>
+  </a>
+  <nav class="nav" aria-label="Main">
+    <a href="#mine" data-for="student">My progress</a>
+    <a href="#child" data-for="parent">My child</a>
+    <a href="#classroom" data-for="teacher">Students</a>
+    <a href="#lessons">Lessons</a>
+    <a href="#videos">Videos</a>
+    <a href="#phrases" data-for="student teacher">Phrases</a>
+    <a href="#how" data-for="student parent">How it works</a>
+    <a href="#parents" data-for="parent">For parents</a>
+    <a href="#teachers" data-for="teacher">Teacher room</a>
+    <button type="button" class="btn btn-line rolechip" id="roleBtn">Choose role</button>
+    <a class="btn" href="#join">Join us</a>
+  </nav>
+</header>
+
+<main>
+<div class="wrap hero">
+  <div class="hero-text">
+    <p class="pill"><span lang="mn">Сайн байна уу?</span><span class="muted">·</span><span>Hello!</span></p>
+    <h1 class="display" id="headline">English with <span class="mark">Mongolians</span></h1>
+    <p class="lead" id="sub">Friendly English lessons made for Mongolian speakers. Learn the phrases you will really use, practise the sounds that feel tricky, and laugh a little while you do it.</p>
+    <div class="row">
+      <a class="btn btn-fill" href="#join">Start learning</a>
+      <a class="btn btn-line" href="#phrases" data-for="student teacher">Peek at the phrases</a>
+    </div>
+    <p class="pill" id="roleBadge"></p>
+    <p class="muted" style="font-size:16px">Every lesson shows English and Mongolian side by side.</p>
+  </div>
+
+  <div class="scene">
+    <svg class="bg" viewBox="0 0 440 400" aria-hidden="true">
+      <circle cx="220" cy="196" r="188" class="f-soft"/>
+      <circle cx="338" cy="92" r="36" class="f-pop"/>
+      <ellipse cx="96" cy="86" rx="34" ry="14" class="f-surface"/>
+      <ellipse cx="124" cy="74" rx="22" ry="14" class="f-surface"/>
+      <circle cx="46" cy="190" r="5" class="f-accent"/>
+      <circle cx="402" cy="176" r="7" class="f-pop"/>
+      <circle cx="388" cy="236" r="4" class="f-accent"/>
+      <ellipse cx="220" cy="346" rx="176" ry="34" class="f-accent" opacity="0.22"/>
+      <path d="M20 300 L64 258 L108 300 Z" class="f-accent"/>
+      <rect x="28" y="298" width="72" height="40" rx="6" class="f-surface"/>
+      <rect x="54" y="310" width="20" height="28" rx="6" class="f-pop"/>
+      <circle cx="64" cy="257" r="5" class="f-pop"/>
+    </svg>
+    <div class="mori mascot bob">
+      <svg viewBox="0 0 240 220" aria-hidden="true" style="display:block;width:100%;height:auto">
+        <path d="M52 118 C26 116 20 150 34 178 C44 160 48 146 60 140 Z" fill="#5B3A2B"/>
+        <rect x="66" y="148" width="18" height="52" rx="9" fill="#C97A4B"/>
+        <rect x="92" y="150" width="18" height="50" rx="9" fill="#C97A4B"/>
+        <rect x="138" y="150" width="18" height="50" rx="9" fill="#C97A4B"/>
+        <rect x="164" y="148" width="18" height="52" rx="9" fill="#C97A4B"/>
+        <rect x="66" y="192" width="18" height="10" rx="5" fill="#4A2F24"/>
+        <rect x="92" y="192" width="18" height="10" rx="5" fill="#4A2F24"/>
+        <rect x="138" y="192" width="18" height="10" rx="5" fill="#4A2F24"/>
+        <rect x="164" y="192" width="18" height="10" rx="5" fill="#4A2F24"/>
+        <rect x="48" y="102" width="142" height="66" rx="33" fill="#D9895B"/>
+        <rect x="150" y="50" width="40" height="84" rx="20" transform="rotate(18 170 92)" fill="#D9895B"/>
+        <path d="M178 40 C160 58 158 90 166 116" fill="none" stroke="#5B3A2B" stroke-width="14" stroke-linecap="round"/>
+        <ellipse cx="204" cy="58" rx="30" ry="20" transform="rotate(18 204 58)" fill="#D9895B"/>
+        <ellipse cx="226" cy="68" rx="12" ry="10" transform="rotate(18 226 68)" fill="#F2C9A6"/>
+        <path d="M186 44 L190 22 L204 40 Z" fill="#C97A4B" stroke="#C97A4B" stroke-width="4" stroke-linejoin="round"/>
+        <circle cx="206" cy="52" r="4.5" fill="#2B1B14"/>
+        <circle cx="207.6" cy="50.4" r="1.5" fill="#FFFFFF"/>
+        <circle cx="231" cy="68" r="2" fill="#8A5A44"/>
+        <circle cx="200" cy="66" r="6" fill="#F29B9B" opacity="0.6"/>
+        <path d="M216 78 Q222 82 228 78" fill="none" stroke="#8A5A44" stroke-width="2" stroke-linecap="round"/>
+        <path d="M154 100 Q174 114 196 100 L192 116 Q174 128 150 114 Z" class="f-pop"/>
+        <rect x="168" y="114" width="12" height="28" rx="6" transform="rotate(-8 174 114)" class="f-pop"/>
+      </svg>
+    </div>
+    <div class="bubble mascot"><b>Let's talk!</b><span lang="mn">Ярилцъя!</span><i></i></div>
+  </div>
+</div>
+
+<section id="mine" data-for="student">
+  <div class="wrap stack">
+    <div style="display:flex;flex-direction:column;gap:12px;max-width:60ch">
+      <h2 class="display">My progress</h2>
+      <p class="muted" style="font-size:18px">Watch a video lesson, press "Mark as done", and see the grades your teacher gives you.</p>
+    </div>
+    <div class="panel" id="famStudent"></div>
+  </div>
+</section>
+
+<section id="child" class="band" data-for="parent">
+  <div class="wrap stack">
+    <div style="display:flex;flex-direction:column;gap:12px;max-width:60ch">
+      <h2 class="display">Your child's progress</h2>
+      <p class="muted" style="font-size:18px">See which video lessons your child has finished and the grades from the teacher, updated as they learn.</p>
+    </div>
+    <div class="panel" id="famParent"></div>
+  </div>
+</section>
+
+<section id="lessons">
+  <div class="wrap stack">
+    <div style="display:flex;flex-direction:column;gap:12px;max-width:60ch">
+      <h2 class="display">Learn the way that suits you</h2>
+      <p class="muted" style="font-size:18px">Pick a lesson style, change it later, and keep going at a speed that feels good.</p>
+    </div>
+    <div class="cards">
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/></svg></div><h3>Small group chat</h3><p class="muted">Speak with a few other learners at your level. Mistakes are welcome here, and everyone gets a turn.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6 8-6s8 2 8 6"/></svg></div><h3>One-to-one</h3><p class="muted">Your teacher, your goals. Interview practice, exam prep, or just chatting with more confidence.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M10 8.5l6 3.5-6 3.5z"/></svg></div><h3>At your own pace</h3><p class="muted">Short videos, audio and quizzes you can open on the bus or at home, whenever you have ten minutes.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="videos" class="band">
+  <div class="wrap stack">
+    <div style="display:flex;flex-direction:column;gap:12px;max-width:60ch">
+      <h2 class="display">Video lessons</h2>
+      <p class="muted" style="font-size:18px">Watch a short lesson, pause whenever you need to, and say the phrases along with your teacher.</p>
+    </div>
+    <div class="cards" id="vgrid"></div>
+    <div class="player" id="player" aria-live="polite"></div>
+  </div>
+</section>
+
+<section id="phrases" data-for="student teacher">
+  <div class="wrap ph">
+    <div class="ph-main">
+      <h2 class="display">Phrases you will use this week</h2>
+      <p class="muted" style="font-size:18px;max-width:56ch">Pick a topic, say each line out loud, then cover the Mongolian and see what you remember.</p>
+      <div class="tabs">
+        <div id="tabs" role="group" aria-label="Phrase topics" style="display:flex;flex-wrap:wrap;gap:8px"></div>
+        <button type="button" class="tab cover" id="cover" aria-pressed="false">Cover Mongolian</button>
+      </div>
+      <div class="list" id="list" aria-live="polite"></div>
+    </div>
+    <div class="ph-side mascot">
+      <div class="bubble"><b>Thank you!</b><span lang="mn">Баярлалаа!</span><i></i></div>
+      <div class="bob">
+        <svg viewBox="0 0 240 220" aria-hidden="true" style="display:block;width:100%;height:auto">
+          <path d="M48 116 Q28 124 34 152" fill="none" stroke="#D9B070" stroke-width="9" stroke-linecap="round"/>
+          <rect x="66" y="148" width="16" height="52" rx="8" fill="#D9B070"/>
+          <rect x="92" y="150" width="16" height="50" rx="8" fill="#D9B070"/>
+          <rect x="142" y="150" width="16" height="50" rx="8" fill="#D9B070"/>
+          <rect x="168" y="148" width="16" height="52" rx="8" fill="#D9B070"/>
+          <rect x="66" y="194" width="16" height="8" rx="4" fill="#8C6A3A"/>
+          <rect x="92" y="194" width="16" height="8" rx="4" fill="#8C6A3A"/>
+          <rect x="142" y="194" width="16" height="8" rx="4" fill="#8C6A3A"/>
+          <rect x="168" y="194" width="16" height="8" rx="4" fill="#8C6A3A"/>
+          <rect x="46" y="100" width="152" height="62" rx="31" fill="#E8C58A"/>
+          <circle cx="98" cy="94" r="26" fill="#E8C58A"/>
+          <circle cx="146" cy="92" r="26" fill="#E8C58A"/>
+          <rect x="74" y="116" width="98" height="16" rx="8" class="f-accent"/>
+          <circle cx="96" cy="124" r="3" class="f-pop"/>
+          <circle cx="123" cy="124" r="3" class="f-pop"/>
+          <circle cx="150" cy="124" r="3" class="f-pop"/>
+          <path d="M184 118 C170 88 196 82 194 56" fill="none" stroke="#E8C58A" stroke-width="28" stroke-linecap="round"/>
+          <ellipse cx="208" cy="46" rx="24" ry="17" fill="#E8C58A"/>
+          <ellipse cx="226" cy="54" rx="12" ry="10" fill="#F6E2BD"/>
+          <circle cx="196" cy="32" r="7" fill="#D9B070"/>
+          <path d="M200 30 Q204 18 210 28" fill="none" stroke="#B98A4A" stroke-width="5" stroke-linecap="round"/>
+          <circle cx="210" cy="42" r="4.5" fill="#2B1B14"/>
+          <circle cx="211.6" cy="40.4" r="1.5" fill="#FFFFFF"/>
+          <circle cx="231" cy="52" r="1.8" fill="#8C6A3A"/>
+          <circle cx="208" cy="54" r="5" fill="#F29B9B" opacity="0.55"/>
+          <path d="M218 62 Q224 66 230 62" fill="none" stroke="#8C6A3A" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="how" data-for="student parent">
+  <div class="wrap stack">
+    <h2 class="display">Three steps, no stress</h2>
+    <div class="cards">
+      <div class="step"><div class="n">1</div><h3>Listen</h3><p class="muted">Hear a phrase spoken clearly, with the Mongolian right beside it so the meaning is never a guess.</p></div>
+      <div class="step"><div class="n">2</div><h3>Say it out loud</h3><p class="muted">Repeat it, record it, try it again. Small sounds add up to big confidence.</p></div>
+      <div class="step"><div class="n">3</div><h3>Use it for real</h3><p class="muted">Take it to a café, a classroom or a job interview, then come back and tell us how it went.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="band" data-for="student teacher">
+  <div class="wrap stack">
+    <div style="display:flex;flex-direction:column;gap:12px;max-width:60ch">
+      <h2 class="display">Sounds we practise together</h2>
+      <p class="muted" style="font-size:18px">Short drills for the sounds learners ask about most, with words you can try straight away.</p>
+    </div>
+    <div class="cards">
+      <div class="snd"><span class="big">th</span><h3>Tongue between the teeth</h3><p class="muted">think · this · three</p></div>
+      <div class="snd"><span class="big">w / v</span><h3>Round lips or teeth on lip</h3><p class="muted">wine · vine · west · vest</p></div>
+      <div class="snd hot"><span class="big">i / ee</span><h3>Short and long vowels</h3><p style="font-weight:700">ship · sheep · bit · beat</p></div>
+      <div class="snd"><span class="big">PHO</span><h3>Where the beat falls</h3><p class="muted">PHO-to-graph · pho-TOG-ra-phy</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="parents" class="band" data-for="parent">
+  <div class="wrap stack">
+    <div style="display:flex;flex-direction:column;gap:12px;max-width:60ch">
+      <h2 class="display">For parents</h2>
+      <p class="muted" style="font-size:18px">Everything you need to follow your child's English, and a few easy ways to help at home.</p>
+    </div>
+    <div class="cards">
+      <div class="card"><h3>What your child practises</h3><p class="muted">Everyday phrases for greetings, cafés and getting around, plus short drills for sounds such as th, w and v. Every phrase has its Mongolian meaning beside it.</p></div>
+      <div class="card"><h3>Help at home</h3>
+        <ul class="tips">
+          <li>Ask your child to teach you one new phrase each day.</li>
+          <li>Watch a short video lesson together and repeat it slowly.</li>
+          <li>Praise the effort. Clear speaking matters more than perfect sounds.</li>
+        </ul>
+      </div>
+      <div class="card"><h3>Class times</h3><p class="muted">[YOUR CLASS TIMES]</p><h3>Fees</h3><p class="muted">[YOUR FEES]</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="classroom" class="band" data-for="teacher">
+  <div class="wrap stack">
+    <div style="display:flex;flex-direction:column;gap:12px;max-width:60ch">
+      <h2 class="display">Students and grades</h2>
+      <p class="muted" style="font-size:18px">Add a student, give the family code to the student and their parent, then follow their progress and add grades.</p>
+    </div>
+    <div class="tgrid">
+      <div class="panel">
+        <h3>Students</h3>
+        <div class="field"><label for="tName">Student name</label><input type="text" id="tName" autocomplete="off"></div>
+        <button type="button" class="btn btn-fill" id="tAdd">Add student</button>
+        <p class="muted" id="tMsg" role="status" style="overflow-wrap:anywhere"></p>
+        <div class="rows" id="roster"></div>
+      </div>
+      <div class="panel" id="tRight"><p class="muted">Choose a student to see their progress and add grades.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="teachers" data-for="teacher">
+  <div class="wrap stack">
+    <div style="display:flex;flex-direction:column;gap:12px;max-width:60ch">
+      <h2 class="display">Teacher room</h2>
+      <p class="muted" style="font-size:18px">A simple plan for each class. Your ticks are saved on this device only.</p>
+    </div>
+    <div class="cards">
+      <div class="card"><h3>Class checklist</h3><div class="todo" id="checks"></div></div>
+      <div class="card"><h3>Warm-up ideas</h3>
+        <ul class="tips">
+          <li>Greet each learner in English and Mongolian.</li>
+          <li>Ask for one new word from yesterday.</li>
+          <li>Say a phrase in a whisper, then in a loud voice.</li>
+        </ul>
+      </div>
+      <div class="card"><h3>Video lessons</h3><p class="muted">The site owner and editors add and remove videos. Send them your lesson link and they will put it in the Video lessons section.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="join" style="padding-bottom:88px">
+  <div class="wrap">
+    <div class="join">
+      <div class="join-side mascot">
+        <div class="bubble"><b>Welcome!</b><span lang="mn">Тавтай морил!</span><i></i></div>
+        <div class="bob" style="width:180px;max-width:100%">
+          <svg viewBox="0 0 200 200" aria-hidden="true" style="display:block;width:100%;height:auto">
+            <rect x="64" y="150" width="16" height="38" rx="8" fill="#3B3A4A"/>
+            <rect x="120" y="150" width="16" height="38" rx="8" fill="#3B3A4A"/>
+            <circle cx="100" cy="112" r="56" fill="#BFD0DA"/><circle cx="60" cy="102" r="34" fill="#BFD0DA"/><circle cx="140" cy="102" r="34" fill="#BFD0DA"/><circle cx="78" cy="72" r="32" fill="#BFD0DA"/><circle cx="122" cy="72" r="32" fill="#BFD0DA"/><circle cx="100" cy="64" r="34" fill="#BFD0DA"/>
+            <circle cx="100" cy="112" r="52" fill="#FFFFFF"/><circle cx="60" cy="102" r="30" fill="#FFFFFF"/><circle cx="140" cy="102" r="30" fill="#FFFFFF"/><circle cx="78" cy="72" r="28" fill="#FFFFFF"/><circle cx="122" cy="72" r="28" fill="#FFFFFF"/><circle cx="100" cy="64" r="30" fill="#FFFFFF"/>
+            <ellipse cx="66" cy="106" rx="14" ry="8" transform="rotate(-20 66 106)" fill="#3B3A4A"/>
+            <ellipse cx="134" cy="106" rx="14" ry="8" transform="rotate(20 134 106)" fill="#3B3A4A"/>
+            <ellipse cx="100" cy="112" rx="30" ry="32" fill="#3B3A4A"/>
+            <circle cx="100" cy="84" r="17" fill="#BFD0DA"/><circle cx="100" cy="84" r="14" fill="#FFFFFF"/>
+            <circle cx="90" cy="112" r="6" fill="#FFFFFF"/><circle cx="110" cy="112" r="6" fill="#FFFFFF"/>
+            <circle cx="91" cy="113" r="3" fill="#1F1E2A"/><circle cx="111" cy="113" r="3" fill="#1F1E2A"/>
+            <ellipse cx="100" cy="126" rx="6" ry="4" fill="#F29B9B"/>
+            <circle cx="80" cy="124" r="5" fill="#F29B9B" opacity="0.5"/><circle cx="120" cy="124" r="5" fill="#F29B9B" opacity="0.5"/>
+            <path d="M92 134 Q100 140 108 134" fill="none" stroke="#F6C9C9" stroke-width="2" stroke-linecap="round"/>
+            <path d="M100 150 L84 140 L84 158 Z" class="f-pop"/><path d="M100 150 L116 140 L116 158 Z" class="f-pop"/>
+            <circle cx="100" cy="150" r="5" fill="#16313E"/>
+          </svg>
+        </div>
+      </div>
+      <div class="join-main">
+        <h2 class="display">Ready to say hello?</h2>
+        <p style="font-size:19px;max-width:48ch">Tell us your level and what you want to talk about, and we will suggest a first lesson that fits.</p>
+        <p style="font-weight:800;font-size:15px;margin-top:8px">Write to us at</p>
+        <a class="email" id="email" href="#join">[YOUR EMAIL]</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <span class="display" style="font-size:15px" data-bind="name">English with Mongolians</span>
+    <span class="muted">Made with care for Mongolian learners of English. © 2026</span>
+  </div>
+</footer>
+
+<button type="button" class="cz-toggle" id="czToggle" aria-expanded="false" aria-controls="czPanel">Customize</button>
+<div class="cz-panel" id="czPanel" hidden role="dialog" aria-label="Customize this site">
+  <h2>Make it yours</h2>
+  <p class="hint">Only the owner and editors see this panel. Changes are saved for every visitor.</p>
+  <label for="fName">Site name<input type="text" id="fName"></label>
+  <label for="fHead">Headline (last word gets the highlight)<input type="text" id="fHead"></label>
+  <label for="fSub">Intro text<input type="text" id="fSub"></label>
+  <label for="fEmail">Contact email<input type="text" id="fEmail" placeholder="you@example.com"></label>
+  <div class="lbl">Colors
+    <div class="sw" id="swatches" role="group" aria-label="Color palette"></div>
+  </div>
+  <label for="fRadius">Corner roundness<input type="range" id="fRadius" min="6" max="36" step="2" value="20"></label>
+  <label class="chk" for="fMascots"><input type="checkbox" id="fMascots" checked> Show the animal characters</label>
+  <hr>
+  <h2>Video lessons</h2>
+  <label for="vTitle">Lesson title<input type="text" id="vTitle" placeholder="Ordering a coffee"></label>
+  <label for="vLevel">Level<select id="vLevel"><option>Beginner</option><option>Everyday</option><option>Confident</option><option>Sounds</option></select></label>
+  <label for="vLink">Video link (YouTube or a .mp4 address)<input type="text" id="vLink" placeholder="https://..."></label>
+  <label for="vFile">Or a video from your device<input type="file" id="vFile" accept="video/*"></label>
+  <p class="hint">A video from your device plays until you close or reload this page. To keep a video for good, upload it to YouTube or your web host and paste the link.</p>
+  <button type="button" class="add" id="vAdd">Add lesson</button>
+  <p class="hint" id="vStatus" role="status"></p>
+  <div id="vRows"></div>
+  <hr>
+  <button type="button" class="reset" id="reset">Reset everything</button>
+</div>
+
+<script>
+(function(){
+  var root = document.documentElement;
+  var DEFAULTS = {
+    palette:'auto', radius:20, mascots:true,
+    name:'English with Mongolians',
+    headline:'English with Mongolians',
+    sub:'Friendly English lessons made for Mongolian speakers. Learn the phrases you will really use, practise the sounds that feel tricky, and laugh a little while you do it.',
+    email:'',
+    lessons:[
+      {id:'l1', title:'Say hello in five minutes', level:'Beginner', url:''},
+      {id:'l2', title:'Ordering at a café', level:'Everyday', url:''},
+      {id:'l3', title:'The th sound', level:'Sounds', url:''}
+    ]
+  };
+  var KEY = 'english-with-mongolians-v1';
+  var state = JSON.parse(JSON.stringify(DEFAULTS));
+  try { var saved = JSON.parse(localStorage.getItem(KEY) || 'null'); if (saved) Object.assign(state, saved); } catch (e) {}
+  var mode = 'standalone', dbx = null, canEditSite = true, saveT = null, started = false, role = null, myName = '', lastLessons = '';
+  function save(){
+    var c = JSON.parse(JSON.stringify(state));
+    c.lessons = (c.lessons || []).filter(function(l){ return !l.file; });
+    if (mode === 'viewer') {
+      // On the published page only the owner and editors save, and it goes to the shared site settings.
+      if (!canEditSite || !dbx) return;
+      clearTimeout(saveT);
+      saveT = setTimeout(function(){ dbx.doc('site/config').set(c).catch(function(){}); }, 600);
+      return;
+    }
+    try { localStorage.setItem(KEY, JSON.stringify(c)); } catch (e) {}
+  }
+
+  var PALETTES = [
+    ['auto','Auto','#9DB7C4'],['sky','Sky','#2A6F96'],['sage','Sage','#3B7752'],['rose','Rose','#A23F5E'],['night','Night','#12232B']
+  ];
+  var PHRASES = {
+    greetings:[['Hello!','Сайн байна уу?'],['Nice to meet you.','Танилцсандаа таатай байна.'],["What's your name?",'Таны нэр хэн бэ?'],['See you later.','Дараа уулзъя.']],
+    cafe:[['Can I have a tea, please?','Нэг цай авч болох уу?'],['How much is it?','Энэ хэд вэ?'],['Let me pay.','Төлбөрөө төлье.'],['Thank you.','Баярлалаа.']],
+    travel:[['Where is the bus stop?','Автобусны буудал хаана байна вэ?'],['Excuse me.','Уучлаарай.'],['Could you say that again?','Дахин хэлж өгнө үү?'],["I'm learning English.",'Би англи хэл сурч байна.']]
+  };
+  var TABS = [['greetings','Greetings'],['cafe','Café'],['travel','Getting around']];
+  var tab = 'greetings', cover = false;
+
+  function $(id){ return document.getElementById(id); }
+
+  function renderHeadline(text){
+    var h = $('headline'); h.textContent = '';
+    var words = text.trim().split(/\s+/);
+    var last = words.pop() || '';
+    if (words.length) h.appendChild(document.createTextNode(words.join(' ') + ' '));
+    var m = document.createElement('span'); m.className = 'mark'; m.textContent = last; h.appendChild(m);
+  }
+
+  function apply(){
+    if (state.palette === 'auto') root.removeAttribute('data-palette'); else root.setAttribute('data-palette', state.palette);
+    root.style.setProperty('--r', state.radius + 'px');
+    document.body.classList.toggle('no-mascots', !state.mascots);
+    Array.prototype.forEach.call(document.querySelectorAll('[data-bind="name"]'), function(n){ n.textContent = state.name; });
+    document.title = state.name || 'English with Mongolians';
+    renderHeadline(state.headline || DEFAULTS.headline);
+    $('sub').textContent = state.sub;
+    var em = $('email');
+    if (state.email) { em.textContent = state.email; em.setAttribute('href', 'mailto:' + state.email); }
+    else { em.textContent = '[YOUR EMAIL]'; em.setAttribute('href', '#join'); }
+    Array.prototype.forEach.call($('swatches').children, function(b){ b.setAttribute('aria-pressed', String(b.dataset.p === state.palette)); });
+  }
+
+  function renderTabs(){
+    var box = $('tabs'); box.textContent = '';
+    TABS.forEach(function(t){
+      var b = document.createElement('button'); b.type = 'button'; b.className = 'tab'; b.textContent = t[1];
+      b.setAttribute('aria-pressed', String(tab === t[0]));
+      b.addEventListener('click', function(){ tab = t[0]; renderTabs(); renderList(); });
+      box.appendChild(b);
+    });
+  }
+  function renderList(){
+    var l = $('list'); l.textContent = '';
+    PHRASES[tab].forEach(function(p){
+      var row = document.createElement('div'); row.className = 'item';
+      var en = document.createElement('span'); en.className = 'en'; en.textContent = p[0];
+      var mn = document.createElement('span'); mn.className = 'mn' + (cover ? ' hid' : ''); mn.lang = 'mn'; mn.textContent = p[1];
+      if (cover) mn.setAttribute('aria-hidden', 'true');
+      row.appendChild(en); row.appendChild(mn); l.appendChild(row);
+    });
+  }
+
+  // customizer
+  var toggle = $('czToggle'), panel = $('czPanel');
+  toggle.addEventListener('click', function(){
+    var open = panel.hidden; panel.hidden = !open; toggle.setAttribute('aria-expanded', String(open));
+    toggle.textContent = open ? 'Close' : 'Customize';
+  });
+  PALETTES.forEach(function(p){
+    var b = document.createElement('button'); b.type = 'button'; b.dataset.p = p[0];
+    var d = document.createElement('span'); d.className = 'dot'; d.style.background = p[2];
+    b.appendChild(d); b.appendChild(document.createTextNode(p[1]));
+    b.addEventListener('click', function(){ state.palette = p[0]; save(); apply(); });
+    $('swatches').appendChild(b);
+  });
+  function bindText(id, key){
+    var el = $(id); el.value = state[key] || '';
+    el.addEventListener('input', function(){ state[key] = el.value; save(); apply(); });
+  }
+  bindText('fName','name'); bindText('fHead','headline'); bindText('fSub','sub'); bindText('fEmail','email');
+  var rg = $('fRadius'); rg.value = state.radius;
+  rg.addEventListener('input', function(){ state.radius = Number(rg.value); save(); apply(); });
+  var mc = $('fMascots'); mc.checked = state.mascots;
+  mc.addEventListener('change', function(){ state.mascots = mc.checked; save(); apply(); });
+  $('reset').addEventListener('click', function(){
+    state = JSON.parse(JSON.stringify(DEFAULTS)); local = {}; current = state.lessons[0].id; save();
+    renderVideos(); renderPlayer(); renderVRows();
+    $('fName').value = state.name; $('fHead').value = state.headline; $('fSub').value = state.sub; $('fEmail').value = '';
+    rg.value = state.radius; mc.checked = state.mascots; apply();
+  });
+  var cv = $('cover');
+  cv.addEventListener('click', function(){
+    cover = !cover; cv.setAttribute('aria-pressed', String(cover));
+    cv.textContent = cover ? 'Show Mongolian' : 'Cover Mongolian'; renderList();
+  });
+
+  // ---- video lessons ----
+  // Set to true once the site lives on your own domain: YouTube links then play right on the page.
+  var EMBED_YOUTUBE = false;
+  var local = {};
+  var current = state.lessons && state.lessons[0] ? state.lessons[0].id : null;
+
+  function ytId(u){
+    var m = String(u).match(/(?:youtu\.be\/|youtube(?:-nocookie)?\.com\/(?:watch\?(?:[^#]*&)?v=|shorts\/|embed\/))([\w-]{11})/);
+    return m ? m[1] : null;
+  }
+  function isHttp(u){ return /^https?:\/\//i.test(u); }
+  function el(tag, cls, text){
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  }
+  function playIcon(){
+    var s = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    s.setAttribute('viewBox', '0 0 64 64'); s.setAttribute('width', '64'); s.setAttribute('height', '64'); s.setAttribute('aria-hidden', 'true');
+    s.innerHTML = '<circle cx="32" cy="32" r="30" fill="currentColor" opacity=".2"/><path d="M26 20l20 12-20 12z" fill="currentColor"/>';
+    return s;
+  }
+  function renderVideos(){
+    var g = $('vgrid'); g.textContent = '';
+    state.lessons.forEach(function(l){
+      var b = el('button', 'vcard'); b.type = 'button';
+      b.setAttribute('aria-current', String(l.id === current));
+      var t = el('span', 'vthumb'); t.appendChild(playIcon());
+      if (!(l.url || local[l.id])) t.appendChild(el('span', 'soon', 'Video coming soon'));
+      var body = el('span', 'vbody');
+      body.appendChild(el('span', 'vlevel', l.level));
+      body.appendChild(el('span', 'vtitle', l.title));
+      if (role === 'student' && fam.lessons[l.id] && fam.lessons[l.id].done) body.appendChild(el('span', 'chip done', 'Done'));
+      b.appendChild(t); b.appendChild(body);
+      b.addEventListener('click', function(){ current = l.id; markOpened(l.id); renderVideos(); renderPlayer(); });
+      g.appendChild(b);
+    });
+  }
+  function openLink(url, label){
+    var a = el('a', 'btn btn-fill', label);
+    a.href = url; a.target = '_blank'; a.rel = 'noopener';
+    return a;
+  }
+  function renderPlayer(){
+    var p = $('player'); p.textContent = '';
+    var l = state.lessons.filter(function(x){ return x.id === current; })[0];
+    if (!l) { p.hidden = true; return; }
+    p.hidden = false;
+    var info = el('div', 'pmsg');
+    info.appendChild(el('h3', null, l.title));
+    markBtn = null;
+    if (role === 'student' && dbx && famCode) {
+      var mb = el('button', 'btn btn-fill', 'Mark as done'); mb.type = 'button';
+      mb.addEventListener('click', function(){ var d = fam.lessons[l.id] && fam.lessons[l.id].done; setDone(l.id, !d); });
+      markBtn = mb; info.appendChild(mb);
+      updateMarkBtn(l.id);
+    }
+    var url = l.url || '';
+    if (local[l.id] || /\.(mp4|webm|ogg|mov)(\?.*)?$/i.test(url)) {
+      var v = document.createElement('video');
+      v.controls = true; v.preload = 'metadata'; v.setAttribute('playsinline', '');
+      v.src = local[l.id] || url;
+      v.addEventListener('error', function(){
+        if (info.querySelector('.fb')) return;
+        info.appendChild(el('p', 'muted fb', 'This video could not be played here.'));
+        if (isHttp(url)) info.appendChild(openLink(url, 'Open the video in a new tab'));
+      });
+      p.appendChild(v);
+    } else if (url && ytId(url) && EMBED_YOUTUBE) {
+      var f = document.createElement('iframe');
+      f.src = 'https://www.youtube-nocookie.com/embed/' + ytId(url);
+      f.title = l.title; f.allowFullscreen = true;
+      f.setAttribute('allow', 'accelerometer; encrypted-media; picture-in-picture');
+      p.appendChild(f);
+    } else if (isHttp(url)) {
+      info.appendChild(el('p', 'muted', 'This lesson opens in a new tab.'));
+      info.appendChild(openLink(url, 'Watch the lesson'));
+    } else {
+      if (canEditSite) {
+        info.appendChild(el('p', 'muted', 'This lesson is waiting for its video. Open Customize to add a link or upload a file.'));
+        var ob = el('button', 'btn btn-line', 'Open Customize'); ob.type = 'button';
+        ob.addEventListener('click', function(){ if (panel.hidden) toggle.click(); });
+        info.appendChild(ob);
+      } else {
+        info.appendChild(el('p', 'muted', 'This video is coming soon. Please check back later.'));
+      }
+    }
+    p.appendChild(info);
+  }
+  function renderVRows(){
+    var box = $('vRows'); box.textContent = '';
+    state.lessons.forEach(function(l){
+      var row = el('div', 'vrow');
+      row.appendChild(el('span', null, l.title));
+      var rm = el('button', null, 'Remove'); rm.type = 'button';
+      rm.setAttribute('aria-label', 'Remove lesson ' + l.title);
+      rm.addEventListener('click', function(){
+        state.lessons = state.lessons.filter(function(x){ return x.id !== l.id; });
+        delete local[l.id];
+        if (current === l.id) current = state.lessons[0] ? state.lessons[0].id : null;
+        save(); renderVideos(); renderPlayer(); renderVRows();
+      });
+      row.appendChild(rm); box.appendChild(row);
+    });
+  }
+  $('vAdd').addEventListener('click', function(){
+    var status = $('vStatus');
+    var title = $('vTitle').value.trim();
+    var link = $('vLink').value.trim();
+    var file = $('vFile').files && $('vFile').files[0];
+    if (!title) { status.textContent = 'Give the lesson a title first.'; return; }
+    if (!file && !link) { status.textContent = 'Paste a video link or choose a file.'; return; }
+    if (!file && !isHttp(link)) { status.textContent = 'The link needs to start with https://'; return; }
+    var id = 'l' + Date.now();
+    var lesson = { id: id, title: title, level: $('vLevel').value, url: file ? '' : link };
+    if (file) { lesson.file = true; local[id] = URL.createObjectURL(file); }
+    state.lessons.push(lesson); current = id;
+    save(); renderVideos(); renderPlayer(); renderVRows();
+    $('vTitle').value = ''; $('vLink').value = ''; $('vFile').value = '';
+    status.textContent = file ? 'Added. This video stays until you reload the page.' : 'Added to the video lessons.';
+  });
+
+  // ---- sign-in gate, roles and owner-only editing ----
+  var ROLES = {
+    student: { label: 'Student', badge: 'Student area: watch video lessons, practise phrases and drill the tricky sounds.' },
+    parent: { label: 'Parent', badge: 'Parent area: see how lessons work and how to help your child at home.' },
+    teacher: { label: 'Teacher', badge: 'Teacher room: class checklist, warm-up ideas, phrases and sounds for the lesson.' }
+  };
+  var CHECKS = ['Greet every learner in English and Mongolian', 'Teach three phrases from the topic of the week', 'Drill one sound with a minimal pair (ship / sheep)', 'Play one video lesson and pause to repeat', 'Send a short note home to parents'];
+  function getRole(){ try { var r = localStorage.getItem('ewm-role'); return ROLES[r] ? r : null; } catch (e) { return null; } }
+  function setRole(r){
+    role = r;
+    try { localStorage.setItem('ewm-role', r); } catch (e) {}
+    document.body.setAttribute('data-role', r);
+    if (r === 'teacher') ensureRoster();
+    if (started) { renderFam(); renderVideos(); renderPlayer(); }
+    $('roleBadge').textContent = ROLES[r].badge;
+    $('roleBtn').textContent = ROLES[r].label + ' · switch';
+  }
+  function showGate(kind){
+    var msg = $('gateMsg'), rl = $('gateRoles');
+    document.body.classList.remove('ready');
+    $('gate').hidden = false;
+    if (kind === 'signin') {
+      msg.textContent = 'This site is for signed-in visitors. Sign in with your Gmail account, then open this link again.';
+      rl.hidden = true;
+    } else if (kind === 'role') {
+      var teacherOk = !(mode === 'viewer' && !canEditSite);
+      document.querySelector('.rolebtn[data-role="teacher"]').hidden = !teacherOk;
+      msg.textContent = (myName ? 'Welcome, ' + myName + '. ' : 'Welcome. ') + 'Choose how you will use the site. You can switch later.' + (teacherOk ? '' : ' Teachers need to be added as editors by the site owner.');
+      rl.hidden = false;
+    } else {
+      msg.textContent = 'Loading…'; rl.hidden = true;
+    }
+  }
+  function enterSite(){ $('gate').hidden = true; document.body.classList.add('ready'); }
+  Array.prototype.forEach.call(document.querySelectorAll('.rolebtn'), function(b){
+    b.addEventListener('click', function(){ setRole(b.dataset.role); enterSite(); });
+  });
+  $('roleBtn').addEventListener('click', function(){ showGate('role'); });
+
+  function renderChecks(){
+    var box = $('checks'); if (!box) return;
+    var done = [];
+    try { done = JSON.parse(localStorage.getItem('ewm-checks') || '[]'); } catch (e) {}
+    box.textContent = '';
+    CHECKS.forEach(function(text, i){
+      var lab = document.createElement('label'); lab.setAttribute('for', 'chk' + i);
+      var cb = document.createElement('input'); cb.type = 'checkbox'; cb.id = 'chk' + i; cb.checked = !!done[i];
+      cb.addEventListener('change', function(){
+        done[i] = cb.checked;
+        try { localStorage.setItem('ewm-checks', JSON.stringify(done)); } catch (e) {}
+      });
+      lab.appendChild(cb); lab.appendChild(document.createTextNode(text)); box.appendChild(lab);
+    });
+  }
+  function syncInputs(){
+    $('fName').value = state.name || ''; $('fHead').value = state.headline || ''; $('fSub').value = state.sub || '';
+    $('fEmail').value = state.email || ''; rg.value = state.radius; mc.checked = state.mascots;
+  }
+  function applyConfig(c){
+    if (!c) return;
+    ['palette', 'radius', 'mascots', 'name', 'headline', 'sub', 'email'].forEach(function(k){ if (c[k] !== undefined) state[k] = c[k]; });
+    var json = JSON.stringify(c.lessons || []);
+    if (Array.isArray(c.lessons) && json !== lastLessons) {
+      lastLessons = json;
+      var keep = state.lessons.filter(function(l){ return l.file; });
+      state.lessons = c.lessons.concat(keep);
+      if (!state.lessons.some(function(l){ return l.id === current; })) current = state.lessons[0] ? state.lessons[0].id : null;
+      if (started) { renderVideos(); renderPlayer(); renderVRows(); }
+    }
+    if (started) { apply(); syncInputs(); }
+  }
+  // ---- progress, grades and family codes ----
+  var fam = { info: null, lessons: {}, grades: [] };
+  var famCode = null, famUnsubs = [], famMsg = '', markBtn = null;
+  try { famCode = localStorage.getItem('ewm-code'); } catch (e) {}
+  var roster = [], rosterUnsub = null, selCode = null, selUnsubs = [], selData = { lessons: {}, grades: [] };
+
+  function normCode(s){ return String(s || '').toUpperCase().replace(/[^A-Z0-9-]/g, ''); }
+  function genCode(){
+    var A = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789', b = new Uint8Array(12), out = '';
+    crypto.getRandomValues(b);
+    for (var i = 0; i < 12; i++) { out += A[b[i] % A.length]; if (i % 4 === 3 && i < 11) out += '-'; }
+    return out;
+  }
+  function fmtDate(s){ try { return new Date(s).toLocaleDateString(); } catch (e) { return ''; } }
+  function avg(list){
+    if (!list.length) return null;
+    var t = 0; list.forEach(function(g){ t += Number(g.score) || 0; });
+    return Math.round(t / list.length);
+  }
+  function doneCount(map){ return state.lessons.filter(function(l){ return map[l.id] && map[l.id].done; }).length; }
+  function bar(n, total){
+    var w = el('div', 'bar'), f = el('span');
+    f.style.width = (total ? Math.round(100 * n / total) : 0) + '%';
+    w.appendChild(f); w.setAttribute('role', 'img'); w.setAttribute('aria-label', n + ' of ' + total + ' lessons done');
+    return w;
+  }
+  function lessonRows(map){
+    var box = el('div', 'rows');
+    state.lessons.forEach(function(l){
+      var m = map[l.id], row = el('div', 'rrow');
+      row.appendChild(el('span', 'rt', l.title));
+      row.appendChild(el('span', 'chip' + (m && m.done ? ' done' : ''), m && m.done ? 'Done' : (m && m.opened ? 'Started' : 'Not started')));
+      if (m && m.at) row.appendChild(el('span', 'muted rd', fmtDate(m.at)));
+      box.appendChild(row);
+    });
+    return box;
+  }
+  function gradeRows(list, onDelete){
+    var box = el('div', 'rows');
+    if (!list.length) { box.appendChild(el('p', 'muted', 'No grades yet.')); return box; }
+    list.forEach(function(g){
+      var row = el('div', 'rrow');
+      row.appendChild(el('span', 'rt', g.title || 'Grade'));
+      row.appendChild(el('span', 'chip score', (Number(g.score) || 0) + '/100'));
+      row.appendChild(el('span', 'muted rd', fmtDate(g.at)));
+      if (onDelete) {
+        var x = el('button', 'sbtn', 'Delete'); x.type = 'button';
+        x.setAttribute('aria-label', 'Delete grade ' + (g.title || ''));
+        x.addEventListener('click', function(){ onDelete(g); });
+        row.appendChild(x);
+      }
+      if (g.comment) row.appendChild(el('p', 'gc', g.comment));
+      box.appendChild(row);
+    });
+    return box;
+  }
+  function renderProgress(box, prefix){
+    box.textContent = '';
+    if (!dbx) { box.appendChild(el('p', 'muted', 'Progress and grades work on the published site, once you are signed in.')); return; }
+    if (!famCode) {
+      box.appendChild(el('h3', null, 'Enter the student code'));
+      box.appendChild(el('p', 'muted', 'Your teacher gives you a code like ABCD-EFGH-JKMN. Parents use the same code to follow their child.'));
+      var f = el('div', 'field'), lb = el('label', null, 'Student code');
+      lb.setAttribute('for', prefix + 'Code');
+      var inp = document.createElement('input'); inp.type = 'text'; inp.id = prefix + 'Code'; inp.autocomplete = 'off'; inp.placeholder = 'ABCD-EFGH-JKMN';
+      f.appendChild(lb); f.appendChild(inp); box.appendChild(f);
+      var go = el('button', 'btn btn-fill', 'Connect'); go.type = 'button';
+      var msg = el('p', 'muted', famMsg); msg.setAttribute('role', 'status');
+      go.addEventListener('click', function(){ connectFamily(inp.value, msg); });
+      box.appendChild(go); box.appendChild(msg);
+      return;
+    }
+    var head = el('div', 'phead');
+    head.appendChild(el('h3', null, (fam.info && fam.info.name) ? fam.info.name : 'Student'));
+    var sw = el('button', 'sbtn', 'Use a different code'); sw.type = 'button';
+    sw.addEventListener('click', disconnectFamily);
+    head.appendChild(sw); box.appendChild(head);
+    var total = state.lessons.length, n = doneCount(fam.lessons);
+    box.appendChild(el('p', null, n + ' of ' + total + ' video lessons done'));
+    box.appendChild(bar(n, total));
+    box.appendChild(el('h3', null, 'Lessons'));
+    box.appendChild(lessonRows(fam.lessons));
+    var a = avg(fam.grades);
+    box.appendChild(el('h3', null, a == null ? 'Grades' : 'Grades · average ' + a + '/100'));
+    box.appendChild(gradeRows(fam.grades, null));
+    if (famMsg) box.appendChild(el('p', 'muted', famMsg));
+  }
+  function updateMarkBtn(id){
+    if (!markBtn) return;
+    var d = fam.lessons[id] && fam.lessons[id].done;
+    markBtn.textContent = d ? 'Done ✓ (tap to undo)' : 'Mark as done';
+  }
+  function renderFam(){
+    renderProgress($('famStudent'), 's');
+    renderProgress($('famParent'), 'p');
+    if (started) { renderVideos(); updateMarkBtn(current); }
+  }
+  function famFail(){ famMsg = 'Could not load progress right now.'; renderFam(); }
+  function subscribeFamily(){
+    famUnsubs.forEach(function(u){ u(); }); famUnsubs = [];
+    var c = famCode;
+    famUnsubs.push(dbx.doc('grades/' + c + '/info/main').onSnapshot(function(s){ fam.info = s.exists ? s.data() : null; renderFam(); }, famFail));
+    famUnsubs.push(dbx.collection('progress/' + c + '/lessons').onSnapshot(function(q){
+      var m = {}; q.docs.forEach(function(d){ m[d.id] = d.data(); }); fam.lessons = m; renderFam();
+    }, famFail));
+    famUnsubs.push(dbx.collection('grades/' + c + '/entries').orderBy('at', 'desc').onSnapshot(function(q){
+      fam.grades = q.docs.map(function(d){ var x = d.data(); x._id = d.id; return x; }); renderFam();
+    }, famFail));
+    renderFam();
+  }
+  function disconnectFamily(){
+    famUnsubs.forEach(function(u){ u(); }); famUnsubs = [];
+    famCode = null; famMsg = ''; fam = { info: null, lessons: {}, grades: [] };
+    try { localStorage.removeItem('ewm-code'); } catch (e) {}
+    renderFam();
+  }
+  function connectFamily(raw, msgEl){
+    var code = normCode(raw);
+    if (code.length < 8) { msgEl.textContent = 'Type the whole code from your teacher.'; return; }
+    msgEl.textContent = 'Checking…';
+    dbx.doc('grades/' + code + '/info/main').get().then(function(s){
+      if (!s.exists) { msgEl.textContent = 'That code was not found. Check it and try again.'; return; }
+      famCode = code; famMsg = '';
+      try { localStorage.setItem('ewm-code', code); } catch (e) {}
+      subscribeFamily();
+    }).catch(function(){ msgEl.textContent = 'Could not check the code right now. Try again in a moment.'; });
+  }
+  function writeFail(){
+    famMsg = 'Your account can only view this site, so progress was not saved. Ask your teacher to give you Contributor access.';
+    renderFam();
+  }
+  function setDone(id, done){
+    if (role !== 'student' || !dbx || !famCode) return;
+    var prev = fam.lessons[id] || {}, now = new Date().toISOString();
+    dbx.doc('progress/' + famCode + '/lessons/' + id).set({ opened: prev.opened || now, done: done, at: now }).catch(writeFail);
+  }
+  function markOpened(id){
+    if (role !== 'student' || !dbx || !famCode) return;
+    var prev = fam.lessons[id];
+    if (prev && prev.opened) return;
+    var now = new Date().toISOString();
+    dbx.doc('progress/' + famCode + '/lessons/' + id).set({ opened: now, done: false, at: now }).catch(writeFail);
+  }
+
+  // teacher: students, progress and grades
+  function ensureRoster(){
+    if (rosterUnsub || !dbx || !canEditSite) return;
+    rosterUnsub = dbx.collection('roster').onSnapshot(function(q){
+      roster = q.docs.map(function(d){ return d.data(); }).sort(function(a, b){ return String(a.name).localeCompare(String(b.name)); });
+      renderRoster();
+    }, function(){ $('tMsg').textContent = 'Could not load the student list.'; });
+  }
+  function renderRoster(){
+    var box = $('roster'); box.textContent = '';
+    if (!roster.length) { box.appendChild(el('p', 'muted', 'No students yet. Add the first one above.')); return; }
+    roster.forEach(function(s){
+      var row = el('div', 'rrow');
+      row.appendChild(el('span', 'rt', s.name));
+      row.appendChild(el('code', 'code', s.code));
+      var cp = el('button', 'sbtn', 'Copy code'); cp.type = 'button';
+      cp.addEventListener('click', function(){
+        try { navigator.clipboard.writeText(s.code).then(function(){ cp.textContent = 'Copied'; }, function(){ cp.textContent = 'Select the code'; }); }
+        catch (e) { cp.textContent = 'Select the code'; }
+      });
+      var op = el('button', 'sbtn', 'Open'); op.type = 'button';
+      op.setAttribute('aria-label', 'Open ' + s.name);
+      op.addEventListener('click', function(){ selectStudent(s); });
+      row.appendChild(cp); row.appendChild(op); box.appendChild(row);
+    });
+  }
+  function buildGradeForm(s){
+    var f = el('div', 'gform');
+    f.appendChild(el('h3', null, 'Add a grade'));
+    function field(id, label, type){
+      var w = el('div', 'field'), l = el('label', null, label); l.setAttribute('for', id);
+      var i = document.createElement(type === 'textarea' ? 'textarea' : 'input');
+      if (type !== 'textarea') i.type = type;
+      i.id = id; w.appendChild(l); w.appendChild(i); f.appendChild(w); return i;
+    }
+    var t = field('gTitle', 'What is it for? (a lesson or task)', 'text'); t.setAttribute('list', 'gTitles');
+    var dl = document.createElement('datalist'); dl.id = 'gTitles';
+    state.lessons.forEach(function(l){ var o = document.createElement('option'); o.value = l.title; dl.appendChild(o); });
+    f.appendChild(dl);
+    var sc = field('gScore', 'Score out of 100', 'number'); sc.min = '0'; sc.max = '100';
+    var cm = field('gComment', 'Comment for the student and parent (optional)', 'textarea'); cm.rows = 3;
+    var btn = el('button', 'btn btn-fill', 'Save grade'); btn.type = 'button';
+    var msg = el('p', 'muted', ''); msg.setAttribute('role', 'status');
+    btn.addEventListener('click', function(){
+      var title = t.value.trim(), score = Number(sc.value);
+      if (!title) { msg.textContent = 'Add what the grade is for.'; return; }
+      if (sc.value === '' || isNaN(score) || score < 0 || score > 100) { msg.textContent = 'The score must be a number from 0 to 100.'; return; }
+      btn.disabled = true;
+      dbx.collection('grades/' + s.code + '/entries').add({ title: title, score: Math.round(score), comment: cm.value.trim(), at: new Date().toISOString() })
+        .then(function(){ t.value = ''; sc.value = ''; cm.value = ''; msg.textContent = 'Grade saved.'; })
+        .catch(function(){ msg.textContent = 'Could not save. Check that you are an editor and try again.'; })
+        .then(function(){ btn.disabled = false; });
+    });
+    f.appendChild(btn); f.appendChild(msg);
+    return f;
+  }
+  function renderSel(){
+    var prog = $('tProg'), gl = $('tGrades');
+    if (!prog || !gl) return;
+    prog.textContent = ''; gl.textContent = '';
+    var total = state.lessons.length, n = doneCount(selData.lessons);
+    prog.appendChild(el('h3', null, 'Lesson progress'));
+    prog.appendChild(el('p', null, n + ' of ' + total + ' video lessons done'));
+    prog.appendChild(bar(n, total));
+    prog.appendChild(lessonRows(selData.lessons));
+    var a = avg(selData.grades);
+    gl.appendChild(el('h3', null, a == null ? 'Grades' : 'Grades · average ' + a + '/100'));
+    gl.appendChild(gradeRows(selData.grades, function(g){
+      dbx.doc('grades/' + selCode + '/entries/' + g._id).delete().catch(function(){});
+    }));
+  }
+  function selectStudent(s){
+    selUnsubs.forEach(function(u){ u(); }); selUnsubs = [];
+    selCode = s.code; selData = { lessons: {}, grades: [] };
+    var pn = $('tRight'); pn.textContent = '';
+    pn.appendChild(el('h3', null, s.name));
+    var cl = el('p', 'muted', 'Family code: '); cl.appendChild(el('code', 'code', s.code)); pn.appendChild(cl);
+    var prog = el('div', 'rows'); prog.id = 'tProg'; pn.appendChild(prog);
+    var gl = el('div', 'rows'); gl.id = 'tGrades'; pn.appendChild(gl);
+    pn.appendChild(buildGradeForm(s));
+    renderSel();
+    selUnsubs.push(dbx.collection('progress/' + s.code + '/lessons').onSnapshot(function(q){
+      var m = {}; q.docs.forEach(function(d){ m[d.id] = d.data(); }); selData.lessons = m; renderSel();
+    }, function(){}));
+    selUnsubs.push(dbx.collection('grades/' + s.code + '/entries').orderBy('at', 'desc').onSnapshot(function(q){
+      selData.grades = q.docs.map(function(d){ var x = d.data(); x._id = d.id; return x; }); renderSel();
+    }, function(){}));
+  }
+  $('tAdd').addEventListener('click', function(){
+    var msg = $('tMsg'), name = $('tName').value.trim();
+    if (!dbx) { msg.textContent = 'Adding students works on the published site.'; return; }
+    if (!name) { msg.textContent = 'Type the student name first.'; return; }
+    var code = genCode(), now = new Date().toISOString();
+    dbx.doc('grades/' + code + '/info/main').set({ name: name })
+      .then(function(){ return dbx.doc('roster/' + code).set({ name: name, code: code, at: now }); })
+      .then(function(){ $('tName').value = ''; msg.textContent = 'Added ' + name + '. Give this code to the student and parent: ' + code; })
+      .catch(function(){ msg.textContent = 'Could not add the student. Check that you are an editor and try again.'; });
+  });
+
+  function startSite(){
+    started = true;
+    toggle.hidden = !canEditSite;
+    if (!canEditSite) panel.hidden = true;
+    syncInputs(); apply(); renderTabs(); renderList(); renderVideos(); renderPlayer(); renderVRows(); renderChecks();
+    if (dbx && famCode) subscribeFamily(); else renderFam();
+    var r = getRole();
+    if (r === 'teacher' && mode === 'viewer' && !canEditSite) r = null;
+    if (r) { setRole(r); enterSite(); } else { showGate('role'); }
+  }
+  async function init(){
+    showGate('loading');
+    var cl = window.claude;
+    if (!cl || !cl.use) { startSite(); return; } // opened as a plain file on your own hosting: no sign-in service here
+    var u = null, d = null, me = null;
+    try { u = await cl.use('user'); } catch (e) {}
+    try { d = await cl.use('db'); } catch (e) {}
+    if (u) { try { me = await u.me(); } catch (e) {} }
+    if (!u || !me || !me.id) { showGate('signin'); return; }
+    mode = 'viewer'; myName = me.name || '';
+    try { canEditSite = (await u.canEdit()) || (await u.isOwner()); } catch (e) { canEditSite = false; }
+    if (d) {
+      dbx = d;
+      await new Promise(function(resolve){
+        var done = false;
+        var t = setTimeout(function(){ if (!done) { done = true; resolve(); } }, 4000);
+        try {
+          dbx.doc('site/config').onSnapshot(function(s){
+            if (s.exists) applyConfig(s.data());
+            if (!done) { done = true; clearTimeout(t); resolve(); }
+          }, function(){ if (!done) { done = true; clearTimeout(t); resolve(); } });
+        } catch (e) { if (!done) { done = true; clearTimeout(t); resolve(); } }
+      });
+    }
+    startSite();
+  }
+  init();
+})();
+</script>
+</body>
+</html>
+
+</body></html>
